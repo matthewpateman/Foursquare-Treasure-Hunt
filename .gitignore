@@ -1,0 +1,3 @@
+#Ignore the config files:
+secret/database.php
+secret/foursquare.php

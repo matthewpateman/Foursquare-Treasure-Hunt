@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foursquare Admin</title>
+<link rel="stylesheet" type="text/css" href="css.css" media="all">
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/jquery-accordion.js"></script>
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/validate.js"></script>
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/ajax2.js"></script>
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/ajax.js"></script>
+<script type="text/javascript" src="http://www.matthewpateman.com/sf/js/script.js"></script>
+</head>
+<body>
+<div id=header></div>
+<div id="title">Foursquare Admin</div>
+<div id="amount">What would you like to do?
+</div>
+<div class="accordion">
+<h3>Add new foursquare venue</h3>
+<span>
+<div id="amount">Please fill in all fields</div>
+<div id="form">
+<form id="add_new_items" action="http://www.matthewpateman.com/4sq/add-new-venue.php" method="post">
+<fieldset><legend>Add new product</legend>
+	<p>
+		<label for="sku">Venue ID</label>
+		<input type="text" name="merchantid" id="merchantid" tabindex="10" class="text" />
+	</p>	
+	
+	<p>
+		<input type="submit" name="Send" /><input type="reset" name="Reset" />
+	</p>
+</form>
+</div>
+</span>
+<h3>View all venues</h3>
+<span>
+
+</span>
+
+
+
+</div>
+</body>
+</html>
